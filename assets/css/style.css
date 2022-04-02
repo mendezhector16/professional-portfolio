@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --mustardyellow: #e0b400;
     --sapphireblue: #2b50aa;
@@ -5,13 +11,12 @@
 }
 
 body {
-    color: var(--mossgreen);
+    color: var(--mustardyellow);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -72,4 +77,19 @@ footer h2 {
     font-size: 30px;
     margin: 0;
     font-weight: lighter;
+}
+
+section {
+    padding: 40px;
+}
+
+.hero {
+    background-image: url("../header-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
 }
