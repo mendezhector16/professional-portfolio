@@ -153,7 +153,7 @@ section {
     display: none;
     text-align: center;
     padding-top: 100px;
-    color: black;
+    color: var(--mustardyellow);
     font-size: 25px;
     opacity: 1;
     transition: opacity 0.25s;
@@ -172,7 +172,7 @@ section {
 }
 
 .project-2 {
-    background-image: url(../in_progress.jpeg);
+    background-image: url(../happy_hour.jpeg);
     background-size: cover;
 }
 
